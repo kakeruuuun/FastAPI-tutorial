@@ -15,7 +15,6 @@
 				"editor.formatOnSave": true
 			},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker",
 				"ms-python.black-formatter",
 				"ms-python.python",
 				"ms-python.vscode-pylance"
