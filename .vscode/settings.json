@@ -3,4 +3,9 @@
         "fastapi",
         "uvicorn"
     ],
+    "cSpell.words": [
+        "devcontainer",
+        "devcontainers",
+        "pylance"
+    ],
 }
