@@ -1,6 +1,7 @@
-from sqlalchemy import Column, Integer, String, DateTime
 from datetime import datetime
-from  settings.base import Base
+
+from settings.base import Base
+from sqlalchemy import Column, DateTime, Integer, String
 
 
 class Todo(Base):

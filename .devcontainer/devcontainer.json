@@ -3,7 +3,7 @@
 {
 	"name": "Python 3",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	"dockerFile": "../Dockerfile",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 	// Configure tool-specific properties.
@@ -17,7 +17,9 @@
 			"extensions": [
 				"ms-python.black-formatter",
 				"ms-python.python",
-				"ms-python.vscode-pylance"
+				"ms-python.vscode-pylance",
+				"ms-python.isort",
+				"ms-python.flake8"
 			]
 		}
 	},
@@ -32,7 +34,7 @@
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh"
+	"postCreateCommand": ""
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }

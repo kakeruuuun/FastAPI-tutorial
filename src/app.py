@@ -1,13 +1,10 @@
-from fastapi import FastAPI, Depends
 import uvicorn
-
-from schemas import PostTodo
-from models import Todo
-from settings.base import SessionLocal
-
-
+from fastapi import Depends, FastAPI
 from sqlalchemy.orm import Session
 
+from models import Todo
+from schemas import PostTodo
+from settings.base import SessionLocal
 
 app = FastAPI()
 

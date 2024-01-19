@@ -3,4 +3,9 @@
         "fastapi",
         "uvicorn"
     ],
+    "flake8.path": [
+        "/home/vscode/.cache/pypoetry/virtualenvs/fastapi-tutorial-31QiwWn4-py3.11/bin/pflake8"
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
 }
